@@ -1,0 +1,14 @@
+{
+  "name": "screen-capture",
+  "version": "0.0.1",
+  "description": "a screen capture app with electron",
+  "main": "app/main.js",
+  "script": {
+    "dev": "./node_modules/.bin/electron ."
+  } ,
+  "dependencies": {
+    "electron": "^1.4.15"
+  },
+  "devDependencies": {},
+  "author": "ahui-lin@qq.com"
+}
