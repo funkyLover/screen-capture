@@ -1,10 +1,11 @@
-const {app, BrowserWindow} = require('electron')
-const path = require('path')
-const url = require('url')
+import {app, BrowserWindow} from 'electron'
+import path from 'path'
+import url from 'url'
 
-let win
+let win = null
 
 function createWindow () {
+
   win = new BrowserWindow({width: 800, height: 600})
 
   win.loadURL(url.format({

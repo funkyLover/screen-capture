@@ -2,13 +2,18 @@
   "name": "screen-capture",
   "version": "0.0.1",
   "description": "a screen capture app with electron",
-  "main": "app/main.js",
-  "script": {
-    "dev": "./node_modules/.bin/electron ."
-  } ,
+  "main": "bootstrap.js",
+  "scripts": {
+    "start": "./node_modules/.bin/electron ."
+  },
   "dependencies": {
     "electron": "^1.4.15"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-stage-2": "^6.22.0",
+    "babel-register": "^6.23.0"
+  },
   "author": "ahui-lin@qq.com"
 }
